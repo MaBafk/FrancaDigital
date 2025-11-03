@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.H88aKb7tUCF3XycKwqHjFgHaEK?w=299&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3");
+     background-repeat: no-repeat;
+    font-family: "Bodoni Moda", serif;
+}
+
+
+
+p {
+    color: rgb(211, 29, 29);
+}
+
+
+.cor {
+ color: rgb(255, 255, 255);
+}
+
+#cornuca {
+    color: rgb(255, 0, 0);
+
+}
+
+.correr {
+   color: blueviolet;
+
+}
