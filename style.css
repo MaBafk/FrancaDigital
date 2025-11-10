@@ -24,3 +24,14 @@ p {
    color: blueviolet;
 
 }
+
+ .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 180px;
+    padding: 16px;
+    border:  1px solid rgb(0, 255, 255);
+    background: rgb(0, 47, 255);
+}
