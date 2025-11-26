@@ -1,37 +1,84 @@
 body {
-    background-image: url("https://th.bing.com/th/id/OIP.H88aKb7tUCF3XycKwqHjFgHaEK?w=299&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3");
-     background-repeat: no-repeat;
-    font-family: "Bodoni Moda", serif;
+    background-image: url("https://i.pinimg.com/736x/5e/9b/10/5e9b10d2eaa80e77a57aadd98b0f9ab3.jpg");
+    font-family: "Oswald", sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
-
-
 p {
-    color: rgb(211, 29, 29);
+    color: rgb(21, 131, 31);
 }
 
 
 .cor {
- color: rgb(255, 255, 255);
+    color: rgb(21, 131, 31);
 }
 
-#cornuca {
-    color: rgb(255, 0, 0);
+#corunica {
+    color:rgb(0, 183, 255)
+   }
 
+.cordolec {
+    color:rgb(21, 131, 31)
 }
 
-.correr {
-   color: blueviolet;
-
-}
-
- .conteudo {
+.conteudo {
     display: flex;
+    align-items: center; /* Texto na vertical */
+    justify-content: center; /* Texto na horizontal */
+    text-align: center; /* centraliza o texto */
+    min-height: 180px; 
+    padding:  16px; 
+    border: 1px solid #ddd;
+    background: #fafafa;
+
+   }
+
+   body{ 
+   margin:0;
+
+   }
+
+   .logo img {
+    width: 96px;
+    height: auto
+   }
+
+   .site-header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px e 32px;
+    background: #ffffff;
+    display: flex;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+    /* corta o elemento para não ultrapassar o tamanho */
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 180px;
-    padding: 16px;
-    border:  1px solid rgb(0, 255, 255);
-    background: rgb(0, 47, 255);
-}
+    justify-content: space-between;
+    gap: 16px;
+   }
+
+   .informacoes .aluno {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 4px;
+
+   }
+
+   .informacoes .titulo-site {
+    font-size: 18px;
+    margin: 0;
+    color: black
+   }
+
+
+   .site-nav a {
+    color:rgb(110, 199, 92);
+    text-decoration: none;
+    font-weight: 600;
+   }
+
+   .site-nav a:hover {
+   text-decoration:underline;
+   }
